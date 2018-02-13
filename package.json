@@ -1,6 +1,6 @@
 {
   "name": "jwt-api-auth",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A simple JWT based authentication API for NodeJS/Express.",
   "main": "index.js",
   "scripts": {
@@ -13,9 +13,9 @@
   ],
   "author": "Darko Vidakovic <darko.vidakovic.91@gmail.com>",
   "license": "ISC",
-  "repository" :
-  { "type" : "git",
-    "url" : "https://github.com/darkov91/jwt-api-auth.git"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/darkov91/jwt-api-auth.git"
   },
   "dependencies": {
     "bcrypt": "^1.0.3",

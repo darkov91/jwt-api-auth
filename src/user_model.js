@@ -25,6 +25,9 @@ var UserSchema = new Schema({
       }
 });
 
+/**
+ * Returns whether the given password matches the hashed password for the user.
+ */
 UserSchema.methods.comparePassword = function(password) {
     return bcrypt.compareSync(password, this.hash_password);
 }

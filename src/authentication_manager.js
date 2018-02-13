@@ -1,8 +1,8 @@
 var jwtHelper = require('./jwt_helper');
 var jsonwebtoken = require('jsonwebtoken');
+var User = require('./user_model');
 var routes = require('./authentication_routes');
 var userController = require('./user_controller');
-var User = require('./user_model');
 
 function AuthenticationManager(configuration) {
     this.secret = configuration.secret;
